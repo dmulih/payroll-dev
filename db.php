@@ -1,8 +1,8 @@
 <?php
 define('DBHOST', 'localhost'); // MySQL Database Host
-define('DBUSERNAME', 'dollvvdq_root'); // MySQL Database Username
-define('DBPASSWORD', 'jd2[~-6g^4CH'); // MySQL Database Password
-define('DBNAME', 'dollvvdq_warehouse'); // MySQL Database Name
+define('DBUSERNAME', 'root'); // MySQL Database Username
+define('DBPASSWORD', ''); // MySQL Database Password
+define('DBNAME', 'payroll_dev'); // MySQL Database Name
 /* Database Connection */
 $db = new mysqli(DBHOST,DBUSERNAME,DBPASSWORD,DBNAME);
 if($db->connect_errno > 0){
