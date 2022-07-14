@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex,nofollow">
     <meta name="AdsBot-Google" content="noindex" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?php echo $pagetitle; ?> | <?php echo SYSTEM_NAME; ?></title>
+    <title><?php //echo $pagetitle; ?> | <?php //echo SYSTEM_NAME; ?></title>
     <link href="/payroll/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="/payroll/assets/bootstrap/dist/css/bootstrap.min.css">
