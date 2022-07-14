@@ -5,6 +5,7 @@ define('DBPASSWORD', 'P@ssw0rd1'); // MySQL Database Password
 define('DBNAME', 'payroll-dev'); // MySQL Database Name
 /* Database Connection */
 $db = new mysqli(DBHOST,DBUSERNAME,DBPASSWORD,DBNAME);
+echo '<pre>';var_dump($db);
 if($db->connect_errno > 0){
     die('Unable to connect to database [' . $db->connect_error . ']');
 }
