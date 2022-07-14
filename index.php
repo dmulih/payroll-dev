@@ -19,7 +19,7 @@ include 'header.php';
             </div>
         </div>
         <div class="box-body">
-            Warehouse Management System!
+            Payroll Management System!
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
