@@ -1,11 +1,14 @@
 <?php
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+error_reporting(E_ALL);
 define('DBHOST', 'localhost'); // MySQL Database Host
 define('DBUSERNAME', 'payroll'); // MySQL Database Username
 define('DBPASSWORD', 'P@ssw0rd1'); // MySQL Database Password
 define('DBNAME', 'payroll-dev'); // MySQL Database Name
 /* Database Connection */
 $db = new mysqli(DBHOST,DBUSERNAME,DBPASSWORD,DBNAME);
-echo '<pre>';var_dump($db);
+//echo '<pre>';var_dump($db);
 if($db->connect_errno > 0){
     die('Unable to connect to database [' . $db->connect_error . ']');
 }
