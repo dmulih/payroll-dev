@@ -2,7 +2,7 @@
 define('DBHOST', 'localhost'); // MySQL Database Host
 define('DBUSERNAME', 'payroll'); // MySQL Database Username
 define('DBPASSWORD', 'P@ssw0rd1'); // MySQL Database Password
-define('DBNAME', 'payroll_dev'); // MySQL Database Name
+define('DBNAME', 'payroll-dev'); // MySQL Database Name
 /* Database Connection */
 $db = new mysqli(DBHOST,DBUSERNAME,DBPASSWORD,DBNAME);
 if($db->connect_errno > 0){
