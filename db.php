@@ -1,7 +1,7 @@
 <?php
 define('DBHOST', 'localhost'); // MySQL Database Host
-define('DBUSERNAME', 'root'); // MySQL Database Username
-define('DBPASSWORD', ''); // MySQL Database Password
+define('DBUSERNAME', 'payroll'); // MySQL Database Username
+define('DBPASSWORD', 'P@ssw0rd1'); // MySQL Database Password
 define('DBNAME', 'payroll_dev'); // MySQL Database Name
 /* Database Connection */
 $db = new mysqli(DBHOST,DBUSERNAME,DBPASSWORD,DBNAME);
