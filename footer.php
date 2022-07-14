@@ -13,8 +13,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.8.1/js/bootstrap-select.js"></script>
 
-<script src="/payroll/assets/fastclick/lib/fastclick.js"></script>
-<script src="/payroll/js/adminlte.min.js"></script>
+<script src="https://payroll-devd.herokuapp.com/assets/fastclick/lib/fastclick.js"></script>
+<script src="https://payroll-devd.herokuapp.com/js/adminlte.min.js"></script>
 
 <?php //} ?>
 <script>
